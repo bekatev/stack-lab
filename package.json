@@ -1,0 +1,33 @@
+{
+  "name": "stack-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6007",
+    "build-storybook": "storybook build",
+    "build:webpack": "webpack --mode production"
+  },
+  "dependencies": {
+    "@esotericsoftware/spine-pixi-v7": "^4.2.0",
+    "@reduxjs/toolkit": "^2.2.7",
+    "pixi.js": "^7.4.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.1.2"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.20",
+    "@storybook/react": "^7.6.20",
+    "@storybook/react-webpack5": "^7.6.20",
+    "@vitejs/plugin-react": "^4.3.1",
+    "html-webpack-plugin": "^5.6.0",
+    "storybook": "^7.6.20",
+    "vite": "^5.4.8",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
